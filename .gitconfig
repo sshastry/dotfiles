@@ -1,0 +1,22 @@
+
+[user]
+    email = my_email_address
+    name = my_name
+
+[alias]
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    lo = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --max-count=10
+    g = grep --break --heading --line-number
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    type = cat-file -t
+    dump = cat-file -p
+
+[credential]
+    helper = cache --timeout=3600
+
+[push]
+    default = matching
+
