@@ -120,6 +120,7 @@
 (define-key evil-normal-state-map ",7" "7gt")
 (define-key evil-normal-state-map ",8" "8gt")
 (define-key evil-normal-state-map ",9" "9gt")
+(define-key evil-normal-state-map ",c" 'column-highlight-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
