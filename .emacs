@@ -76,11 +76,13 @@
 ;; (setq col-highlight-vline-face-flag t)
 ;; (defface vline '((t (:background "SlateGray3"))) "foo" :group 'vline)
 
-(column-highlight-mode 1)
+(column-highlight-mode 0)
 
 (linum-relative-global-mode 1)
 (setq linum-relative-format " %3s ")
 (setq linum-relative-current-symbol "")
+
+;; (require 'whitespace)   
 
 ;; date
 ;; http://stackoverflow.com/questions/251908/how-can-i-insert-current-date-and-time-into-a-file-using-emacs
@@ -124,4 +126,5 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; alias vim-p="emacs -nw --eval '(evil-tabs-tabedit \"foo.txt\")' --eval '(evil-tabs-tabedit \"abc.txt\")' --eval '(evil-tabs-tabedit \"xyz.txt\")'"
 
